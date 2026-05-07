@@ -1,0 +1,161 @@
+/* ===== RESET ===== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+/* ===== HEADER ===== */
+header {
+  position: sticky;
+  top: 0;
+  background-color: #222;
+  padding: 20px 40px;
+  height: 120px;
+}
+
+header h1 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+/* ===== NAVIGASI ===== */
+nav a {
+  display: inline-block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ===== MAIN ===== */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* ===== SECTION ===== */
+section {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  scroll-margin-top: 140px;
+}
+
+section h2 {
+  margin-bottom: 16px;
+  color: #222;
+  font-size: 1.4rem;
+}
+
+section p {
+  margin-bottom: 8px;
+}
+
+/* ===== FOTO PROFIL ===== */
+img {
+  display: block;
+  width: 70px;
+  border: 3px solid #222;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+/* ====== TABLE ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+td, th {
+  padding: 10px 16px;
+  text-align: left;
+  border: 1px solid #ddd;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+th {
+  background-color: #222;
+  color: white;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ===== FORM ===== */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  margin-bottom: 12px;
+}
+
+textarea {
+  height: 120px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: #222;
+  color: white; 
+  border: none;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+}
